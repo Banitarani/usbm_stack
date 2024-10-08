@@ -44,14 +44,14 @@ let drinkPrice = 53;
 let total_bill = foodPrice + drinkPrice;
 let tip = (total_bill * 10) / 100;
 let final_bill = total_bill + tip;
-console.log(final_bill);
+console.log(`This is your final bill ${final_bill}`);
 // ans 2
 let original_price = 1000;
 let discount = (original_price * 57) / 100;
 let final_price = original_price - discount;
-console.log(final_price);
+console.log(`This is your final price ${final_price}`);
 // ans 3
 let product_price = 1437;
 let sales_tax = (product_price * 8) / 100;
 let final_amount = product_price + sales_tax;
-console.log(final_amount);
+console.log(`This is your final price ${final_amount}`);
