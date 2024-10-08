@@ -27,3 +27,14 @@ if (total_bill >= 1000) {
 } else {
   console.log("no discount sir/madam");
 }
+let age = 45;
+let adult;
+let senior;
+let minor;
+if ((age > 18) & (age < 60)) {
+  console.log("You are adult ");
+} else if (age > 60) {
+  console.log("You are sinior");
+} else {
+  console.log("Hello, you are minor now");
+}
