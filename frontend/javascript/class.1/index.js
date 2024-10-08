@@ -29,12 +29,29 @@
 // console.log(multiple);
 // console.log(division);
 
-let name = "Banita";
-let age = 23;
-let city = "Bhubaneswar";
-let roll_num = 22;
-var college = "UNITED SCHOOL OF BUSSINESS MANAGEMENT";
-let batch = "MCA 2025";
-console.log(
-  `I am ${name} , I am ${age} years old, I am from ${city} and I read in ${college} ${batch} and my roll num is ${roll_num}`
-);
+// let name = "Banita";
+// let age = 23;
+// let city = "Bhubaneswar";
+// let roll_num = 22;
+// var college = "UNITED SCHOOL OF BUSSINESS MANAGEMENT";
+// let batch = "MCA 2025";
+// console.log(
+//   `I am ${name} , I am ${age} years old, I am from ${city} and I read in ${college} ${batch} and my roll num is ${roll_num}`
+// );
+// ans 1
+let foodPrice = 43;
+let drinkPrice = 53;
+let total_bill = foodPrice + drinkPrice;
+let tip = (total_bill * 10) / 100;
+let final_bill = total_bill + tip;
+console.log(final_bill);
+// ans 2
+let original_price = 1000;
+let discount = (original_price * 57) / 100;
+let final_price = original_price - discount;
+console.log(final_price);
+// ans 3
+let product_price = 1437;
+let sales_tax = (product_price * 8) / 100;
+let final_amount = product_price + sales_tax;
+console.log(final_amount);
