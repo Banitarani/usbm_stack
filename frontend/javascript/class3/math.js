@@ -100,7 +100,7 @@ switch (day) {
     break;
 }
 
-let month = "0";
+let month = "15";
 switch (month) {
   case "0":
     console.log("Hii ... January");
@@ -142,3 +142,4 @@ switch (month) {
     console.log("Sorry we could'nt find any month");
     break;
 }
+ 
