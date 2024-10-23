@@ -31,5 +31,41 @@ function greeting(name, hour) {
     return `Hii good evening! ${name}`;
   }
 }
-const result = greeting("Banita", 10);
+const result = greeting("Banita", 16);
 console.log(result);
+
+const calculator = (a, b, operator) => {
+  switch (operator) {
+    case "*":
+      return a * b;
+      break;
+    case "+":
+      return a + b;
+      break;
+    case "-":
+      return a - b;
+      break;
+    case "/":
+      return a / b;
+      break;
+    default:
+      return "invalid operator";
+      break;
+  }
+};
+const final = calculator(3, 4, "*");
+console.log(final);
+
+// const add = (a, b) => {
+//   console.log(add(5, 6));
+// };
+
+const add = (a, b) => a + b;
+console.log(add(5, 7));
+
+const bmi = (weight, height) => {
+  return weight / (height * height);
+};
+
+const last = bmi(23, 22);
+console.log(last);
