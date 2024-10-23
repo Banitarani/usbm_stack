@@ -69,3 +69,16 @@ const bmi = (weight, height) => {
 
 const last = bmi(23, 22);
 console.log(last);
+
+const printNumbers = (...numbers) => {
+  return numbers;
+};
+let resul = printNumbers(1, 2, 3, 4, 5, 6, 7, 8, 9);
+console.log(resul);
+
+setTimeout(() => {
+  console.log("heyy,USBM girls.");
+}, 5000);
+setInterval(() => {
+  console.log("heyy");
+}, 1000);
