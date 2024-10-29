@@ -16,4 +16,4 @@ console.log(animal); //unshift means add the element start of the array
 
 let domestic = ["tiger", "cow", "dog", "cat"];
 domestic.shift();
-console.log(domestic); //shift means remove the element end of the array
+console.log(domestic); //shift means remove the element start of the array
