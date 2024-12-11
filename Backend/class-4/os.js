@@ -8,3 +8,4 @@ console.log(os.release()); //10.0.19045
 console.log(os.userInfo().username); //s
 console.log(os.totalmem());//4171898880
 console.log(os.type());//Windows_NT
+
