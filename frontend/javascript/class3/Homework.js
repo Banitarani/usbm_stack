@@ -110,55 +110,80 @@
 // }
 // askNumber();
 
-//1. Generate a random number between 1 and 100.
-let start = 1;
-let end = 100;
-let total = 100 - 1 + 1;
-let randomNumber = Math.floor(Math.random() * total + 1);
-console.log(randomNumber);
+// //1. Generate a random number between 1 and 100.
+// let start = 1;
+// let end = 100;
+// let total = 100 - 1 + 1;
+// let randomNumber = Math.floor(Math.random() * total + 1);
+// console.log(randomNumber);
 
-// 2. Task: Round the number 6.75 down to the nearest integer.
+// // 2. Task: Round the number 6.75 down to the nearest integer.
 
 console.log(Math.floor(6.75));
 
 // 3. Task: Round the number 9.12 up to the nearest integer.
 console.log(Math.ceil(9.12));
 
-// 4. Task: Generate a random number between 5 and 27 (inclusive).
+// // 4. Task: Generate a random number between 5 and 27 (inclusive).
 
-let random = Math.floor(Math.random() * (27 - 5 + 1)) + 5;
-console.log(random);
+// let random = Math.floor(Math.random() * (27 - 5 + 1)) + 5;
+// console.log(random);
 
-// 5. Task: Add 5 days to the current date.
-let currentDate = new Date();
-let futureDate = currentDate.getTime() + 5 * 24 * 60 * 60 * 1000;
-futureDate = new Date(futureDate);
-console.log(futureDate);
+// // 5. Task: Add 5 days to the current date.
+// let currentDate = new Date();
+// let futureDate = currentDate.getTime() + 5 * 24 * 60 * 60 * 1000;
+// futureDate = new Date(futureDate);
+// console.log(futureDate);
 
-// 6. Task: Get the number of milliseconds between January 1, 2023, and today.
-let startDate = new Date("2023-01-01");
-let date = new Date("2024-10-15");
-let millisecondsDiff = date.getTime() - startDate.getTime();
-console.log(millisecondsDiff);
+// // 6. Task: Get the number of milliseconds between January 1, 2023, and today.
+// let startDate = new Date("2023-01-01");
+// let date = new Date("2024-10-15");
+// let millisecondsDiff = date.getTime() - startDate.getTime();
+// console.log(millisecondsDiff);
 
-// 7. Task: Get the current hour.
-let a = new Date();
-let currentHour = a.getHours();
-console.log(currentHour);
+// // 7. Task: Get the current hour.
+// let a = new Date();
+// let currentHour = a.getHours();
+// console.log(currentHour);
 
-// 8. Task: Create a date for January 1, 2025.
-let b = new Date(2025, 0, 1);
-console.log(b);
+// // 8. Task: Create a date for January 1, 2025.
+// let b = new Date(2025, 0, 1);
+// console.log(b);
 
-// 9. Task: Get the current day of the week (0 for Sunday, 6 for Saturday).
-let currentDay = new Date(Date.now()).getDay();
-console.log(currentDay);
+// // 9. Task: Get the current day of the week (0 for Sunday, 6 for Saturday).
+// let currentDay = new Date(Date.now()).getDay();
+// console.log(currentDay);
 
-// 10. Task: Get the current month (0-11).
+// // 10. Task: Get the current month (0-11).
 
-let currentMonth = new Date(Date.now()).getMonth();
-console.log(currentMonth);
+// let currentMonth = new Date(Date.now()).getMonth();
+// console.log(currentMonth);
 
 // 11. Task: What is the difference between getDate() and getDay()?
 // * in getDate() function we get date within the month.
 // * in getDay()  function we get day within the weeks .
+// const readline = require("readline");
+// const r1 = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout,
+// });
+// let a;
+// let b;
+// r1.question("please enter the value of a :", (inputa) => {
+//   a = parseInt(inputa);
+//   r1.question("please enter the value of b :", (inputb) => {
+//     b = parseInt(inputb);
+
+//     a = a - b;
+//     b = a + b;
+//     a = b - a;
+//     console.log(`After swapping: a = ${a}, b = ${b}`);
+//     r1.close(); // Close the readline interface
+//   });
+// });
+let a = 7;
+let b = 10;
+a = a - b;
+b = a + b;
+a = b - a;
+console.log(`After swapping a = ${a},b = ${b}`);
